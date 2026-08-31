@@ -1,0 +1,7 @@
+v 4
+file . "EqNN-ULA_tb.vhd" "f144f8faffbd96ef2e89fe64ccaf912f1a360cac" "20260831214653.413":
+  entity eqnn_ula_tb at 27( 1302) + 0 on 13;
+  architecture simulacao of eqnn_ula_tb at 34( 1412) + 0 on 14;
+file . "EqNN-ULA.vhd" "c8620c9b9c6c0a181960e48c72d2c05afd9c33b7" "20260831214653.413":
+  entity eqnn_ula at 32( 1821) + 0 on 11;
+  architecture combinacional of eqnn_ula at 47( 2225) + 0 on 12;

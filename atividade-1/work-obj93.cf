@@ -1,0 +1,7 @@
+v 4
+file . "tb_decoder.vhd" "243955a35c4a95bd49409502271a5ab6cfbfad96" "20260829015323.288":
+  entity tb_decoder at 1( 0) + 0 on 17;
+  architecture simulacao of tb_decoder at 7( 82) + 0 on 18;
+file . "decoder3x8.vhd" "94809c17e898daba9c44e93faa52660fc9766fee" "20260829015323.262":
+  entity decoder3x8 at 1( 0) + 0 on 15;
+  architecture logicabooleana of decoder3x8 at 13( 223) + 0 on 16;

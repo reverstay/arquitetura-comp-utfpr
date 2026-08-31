@@ -1,0 +1,60 @@
+LAB 1 - DECODER 3x8
+
+IMPORTANTE:
+Este pacote é de PREPARAÇÃO, não deve ser enviado como está.
+
+Arquivos digitais prontos:
+- decoder.vhd
+- tb_decoder.vhd
+
+Para gerar resultado.ghw:
+1. Instale o GHDL.
+2. Coloque decoder.vhd e tb_decoder.vhd na mesma pasta.
+3. Execute gerar_resultado_ghw.bat no Windows.
+4. Confirme que resultado.ghw foi criado.
+
+Tabela verdade para copiar À MÃO e fotografar:
+
+A B C | Y0 Y1 Y2 Y3 Y4 Y5 Y6 Y7
+0 0 0 |  1  0  0  0  0  0  0  0
+0 0 1 |  0  1  0  0  0  0  0  0
+0 1 0 |  0  0  1  0  0  0  0  0
+0 1 1 |  0  0  0  1  0  0  0  0
+1 0 0 |  0  0  0  0  1  0  0  0
+1 0 1 |  0  0  0  0  0  1  0  0
+1 1 0 |  0  0  0  0  0  0  1  0
+1 1 1 |  0  0  0  0  0  0  0  1
+
+Expressões:
+Y0 = A' B' C'
+Y1 = A' B' C
+Y2 = A' B  C'
+Y3 = A' B  C
+Y4 = A  B' C'
+Y5 = A  B' C
+Y6 = A  B  C'
+Y7 = A  B  C
+
+Diagrama para desenhar À MÃO:
+- Faça três entradas A, B e C.
+- Faça uma porta NOT para cada entrada, obtendo A', B' e C'.
+- Faça oito portas AND de três entradas.
+- AND de Y0 recebe A', B', C'.
+- AND de Y1 recebe A', B', C.
+- AND de Y2 recebe A', B, C'.
+- AND de Y3 recebe A', B, C.
+- AND de Y4 recebe A, B', C'.
+- AND de Y5 recebe A, B', C.
+- AND de Y6 recebe A, B, C'.
+- AND de Y7 recebe A, B, C.
+
+ANTES DE ENVIAR:
+Monte o arquivo NomeDoAluno-Lab1.zip contendo:
+1. tabela_verdade.jpg      -> FOTO DO SEU MANUSCRITO
+2. decoder.vhd
+3. tb_decoder.vhd
+4. diagrama_logico.jpg     -> FOTO DO SEU MANUSCRITO
+5. resultado.ghw
+
+Não use underline no nome do ZIP. O formato pedido é:
+NomeDoAluno-Lab1.zip
