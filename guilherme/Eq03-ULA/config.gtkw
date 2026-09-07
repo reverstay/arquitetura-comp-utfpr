@@ -1,0 +1,34 @@
+[*]
+[*] GTKWave Analyzer v3.3.128 (w)1999-2026 BSI
+[*] Sun Sep  6 20:13:06 2026
+[*]
+[dumpfile] "/home/batpacg/Git/arquitetura-comp-utfpr/guilherme/at2/ula.ghw"
+[dumpfile_mtime] "Sun Sep  6 20:12:56 2026"
+[dumpfile_size] 1479
+[savefile] "/home/batpacg/Git/arquitetura-comp-utfpr/guilherme/at2/config.gtkw"
+[timestart] 0
+[size] 1694 972
+[pos] -4 -2
+*-24.656141 5870000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.ula_tb.
+[treeopen] top.ula_tb.dut.
+[sst_width] 254
+[signals_width] 126
+[sst_expanded] 1
+[sst_vpaned_height] 285
+@24
+[color] 1
+#{top.ula_tb.s_inop[1:0]} top.ula_tb.s_inop[1] top.ula_tb.s_inop[0]
+@25
+[color] 1
+#{top.ula_tb.s_ina[19:0]} top.ula_tb.s_ina[19] top.ula_tb.s_ina[18] top.ula_tb.s_ina[17] top.ula_tb.s_ina[16] top.ula_tb.s_ina[15] top.ula_tb.s_ina[14] top.ula_tb.s_ina[13] top.ula_tb.s_ina[12] top.ula_tb.s_ina[11] top.ula_tb.s_ina[10] top.ula_tb.s_ina[9] top.ula_tb.s_ina[8] top.ula_tb.s_ina[7] top.ula_tb.s_ina[6] top.ula_tb.s_ina[5] top.ula_tb.s_ina[4] top.ula_tb.s_ina[3] top.ula_tb.s_ina[2] top.ula_tb.s_ina[1] top.ula_tb.s_ina[0]
+@24
+[color] 1
+#{top.ula_tb.s_inb[19:0]} top.ula_tb.s_inb[19] top.ula_tb.s_inb[18] top.ula_tb.s_inb[17] top.ula_tb.s_inb[16] top.ula_tb.s_inb[15] top.ula_tb.s_inb[14] top.ula_tb.s_inb[13] top.ula_tb.s_inb[12] top.ula_tb.s_inb[11] top.ula_tb.s_inb[10] top.ula_tb.s_inb[9] top.ula_tb.s_inb[8] top.ula_tb.s_inb[7] top.ula_tb.s_inb[6] top.ula_tb.s_inb[5] top.ula_tb.s_inb[4] top.ula_tb.s_inb[3] top.ula_tb.s_inb[2] top.ula_tb.s_inb[1] top.ula_tb.s_inb[0]
+#{top.ula_tb.s_outr[19:0]} top.ula_tb.s_outr[19] top.ula_tb.s_outr[18] top.ula_tb.s_outr[17] top.ula_tb.s_outr[16] top.ula_tb.s_outr[15] top.ula_tb.s_outr[14] top.ula_tb.s_outr[13] top.ula_tb.s_outr[12] top.ula_tb.s_outr[11] top.ula_tb.s_outr[10] top.ula_tb.s_outr[9] top.ula_tb.s_outr[8] top.ula_tb.s_outr[7] top.ula_tb.s_outr[6] top.ula_tb.s_outr[5] top.ula_tb.s_outr[4] top.ula_tb.s_outr[3] top.ula_tb.s_outr[2] top.ula_tb.s_outr[1] top.ula_tb.s_outr[0]
+@28
+top.ula_tb.dut.outlt
+top.ula_tb.dut.outz
+[pattern_trace] 1
+[pattern_trace] 0

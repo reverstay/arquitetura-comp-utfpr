@@ -1,0 +1,7 @@
+v 4
+file . "Eq03-ULA_tb.vhd" "1938ac7b6a6180422f3b72df7bc7398bdf8fced8" "20260907040652.701":
+  entity ula_tb at 5( 60) + 0 on 61;
+  architecture test of ula_tb at 12( 160) + 0 on 62;
+file . "Eq03-ULA.vhd" "395eb3cae0f24a6e894c64924638a16c96fe311f" "20260907040652.701":
+  entity ula at 5( 60) + 0 on 59;
+  architecture arch of ula at 20( 448) + 0 on 60;
