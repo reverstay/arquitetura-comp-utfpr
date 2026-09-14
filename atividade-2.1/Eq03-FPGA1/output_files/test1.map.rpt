@@ -1,5 +1,5 @@
 Analysis & Synthesis report for test1
-Mon Sep 14 19:01:01 2026
+Mon Sep 14 19:21:47 2026
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -10,17 +10,7 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   2. Analysis & Synthesis Summary
   3. Analysis & Synthesis Settings
   4. Parallel Compilation
-  5. Analysis & Synthesis Source Files Read
-  6. Analysis & Synthesis Resource Usage Summary
-  7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Multiplexer Restructuring Statistics (Restructuring Performed)
- 10. Parameter Settings for Inferred Entity Instance: Ula:ula0|lpm_mult:Mult0
- 11. lpm_mult Parameter Settings by Entity Instance
- 12. Port Connectivity Checks: "Ula:ula0"
- 13. Post-Synthesis Netlist Statistics for Top Partition
- 14. Elapsed Time Per Partition
- 15. Analysis & Synthesis Messages
+  5. Analysis & Synthesis Messages
 
 
 
@@ -47,22 +37,22 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Sep 14 19:01:01 2026       ;
+; Analysis & Synthesis Status        ; Failed - Mon Sep 14 19:21:47 2026           ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; test1                                       ;
 ; Top-level Entity Name              ; toplevel                                    ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; 105                                         ;
-;     Total combinational functions  ; 105                                         ;
-;     Dedicated logic registers      ; 0                                           ;
-; Total registers                    ; 0                                           ;
-; Total pins                         ; 65                                          ;
-; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0                                           ;
-; Embedded Multiplier 9-bit elements ; 0                                           ;
-; Total PLLs                         ; 0                                           ;
-; UFM blocks                         ; 0                                           ;
-; ADC blocks                         ; 0                                           ;
+; Total logic elements               ; N/A until Partition Merge                   ;
+;     Total combinational functions  ; N/A until Partition Merge                   ;
+;     Dedicated logic registers      ; N/A until Partition Merge                   ;
+; Total registers                    ; N/A until Partition Merge                   ;
+; Total pins                         ; N/A until Partition Merge                   ;
+; Total virtual pins                 ; N/A until Partition Merge                   ;
+; Total memory bits                  ; N/A until Partition Merge                   ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
+; Total PLLs                         ; N/A until Partition Merge                   ;
+; UFM blocks                         ; N/A until Partition Merge                   ;
+; ADC blocks                         ; N/A until Partition Merge                   ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -172,281 +162,34 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                           ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                                       ; Library ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------------------------+---------+
-; toplevel.vhd                     ; yes             ; User VHDL File               ; C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd    ;         ;
-; displays.vhd                     ; yes             ; User VHDL File               ; C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/displays.vhd    ;         ;
-; Eq03-ULA.vhd                     ; yes             ; User VHDL File               ; C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/Eq03-ULA.vhd    ;         ;
-; lpm_mult.tdf                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mult.tdf                                                ;         ;
-; aglobal201.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc                                              ;         ;
-; lpm_add_sub.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_add_sub.inc                                             ;         ;
-; multcore.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/multcore.inc                                                ;         ;
-; bypassff.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/bypassff.inc                                                ;         ;
-; altshift.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altshift.inc                                                ;         ;
-; db/mult_9js.tdf                  ; yes             ; Auto-Generated Megafunction  ; C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/db/mult_9js.tdf ;         ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------------------------+---------+
-
-
-+------------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                      ;
-+---------------------------------------------+--------------------+
-; Resource                                    ; Usage              ;
-+---------------------------------------------+--------------------+
-; Estimated Total logic elements              ; 105                ;
-;                                             ;                    ;
-; Total combinational functions               ; 105                ;
-; Logic element usage by number of LUT inputs ;                    ;
-;     -- 4 input functions                    ; 67                 ;
-;     -- 3 input functions                    ; 26                 ;
-;     -- <=2 input functions                  ; 12                 ;
-;                                             ;                    ;
-; Logic elements by mode                      ;                    ;
-;     -- normal mode                          ; 84                 ;
-;     -- arithmetic mode                      ; 21                 ;
-;                                             ;                    ;
-; Total registers                             ; 0                  ;
-;     -- Dedicated logic registers            ; 0                  ;
-;     -- I/O registers                        ; 0                  ;
-;                                             ;                    ;
-; I/O pins                                    ; 65                 ;
-;                                             ;                    ;
-; Embedded Multiplier 9-bit elements          ; 0                  ;
-;                                             ;                    ;
-; Maximum fan-out node                        ; SWITCH_HW[1]~input ;
-; Maximum fan-out                             ; 21                 ;
-; Total fan-out                               ; 454                ;
-; Average fan-out                             ; 1.93               ;
-+---------------------------------------------+--------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                              ;
-+------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------------------------+-------------+--------------+
-; Compilation Hierarchy Node         ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                       ; Entity Name ; Library Name ;
-+------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------------------------+-------------+--------------+
-; |toplevel                          ; 105 (0)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 65   ; 0            ; 0          ; |toplevel                                                 ; toplevel    ; work         ;
-;    |Ula:ula0|                      ; 64 (34)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |toplevel|Ula:ula0                                        ; Ula         ; work         ;
-;       |lpm_mult:Mult0|             ; 30 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |toplevel|Ula:ula0|lpm_mult:Mult0                         ; lpm_mult    ; work         ;
-;          |mult_9js:auto_generated| ; 30 (30)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |toplevel|Ula:ula0|lpm_mult:Mult0|mult_9js:auto_generated ; mult_9js    ; work         ;
-;    |displays:display|              ; 41 (41)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |toplevel|displays:display                                ; displays    ; work         ;
-+------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------------------------+-------------+--------------+
-Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+------------------------------------------------------+
-; General Register Statistics                          ;
-+----------------------------------------------+-------+
-; Statistic                                    ; Value ;
-+----------------------------------------------+-------+
-; Total registers                              ; 0     ;
-; Number of registers using Synchronous Clear  ; 0     ;
-; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 0     ;
-; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
-; Number of registers using Preset             ; 0     ;
-+----------------------------------------------+-------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                        ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output              ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------+
-; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |toplevel|Ula:ula0|outR[7]              ;
-; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; No         ; |toplevel|Ula:ula0|outR[1]              ;
-; 16:1               ; 2 bits    ; 20 LEs        ; 8 LEs                ; 12 LEs                 ; No         ; |toplevel|displays:display|disp1_out[1] ;
-; 64:1               ; 2 bits    ; 84 LEs        ; 10 LEs               ; 74 LEs                 ; No         ; |toplevel|displays:display|disp0_out[6] ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------+
-
-
-+---------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: Ula:ula0|lpm_mult:Mult0        ;
-+------------------------------------------------+----------+---------------------+
-; Parameter Name                                 ; Value    ; Type                ;
-+------------------------------------------------+----------+---------------------+
-; AUTO_CARRY_CHAINS                              ; ON       ; AUTO_CARRY          ;
-; IGNORE_CARRY_BUFFERS                           ; OFF      ; IGNORE_CARRY        ;
-; AUTO_CASCADE_CHAINS                            ; ON       ; AUTO_CASCADE        ;
-; IGNORE_CASCADE_BUFFERS                         ; OFF      ; IGNORE_CASCADE      ;
-; LPM_WIDTHA                                     ; 4        ; Untyped             ;
-; LPM_WIDTHB                                     ; 4        ; Untyped             ;
-; LPM_WIDTHP                                     ; 8        ; Untyped             ;
-; LPM_WIDTHR                                     ; 8        ; Untyped             ;
-; LPM_WIDTHS                                     ; 1        ; Untyped             ;
-; LPM_REPRESENTATION                             ; UNSIGNED ; Untyped             ;
-; LPM_PIPELINE                                   ; 0        ; Untyped             ;
-; LATENCY                                        ; 0        ; Untyped             ;
-; INPUT_A_IS_CONSTANT                            ; NO       ; Untyped             ;
-; INPUT_B_IS_CONSTANT                            ; NO       ; Untyped             ;
-; USE_EAB                                        ; OFF      ; Untyped             ;
-; MAXIMIZE_SPEED                                 ; 5        ; Untyped             ;
-; DEVICE_FAMILY                                  ; MAX 10   ; Untyped             ;
-; CARRY_CHAIN                                    ; MANUAL   ; Untyped             ;
-; APEX20K_TECHNOLOGY_MAPPER                      ; LUT      ; TECH_MAPPER_APEX20K ;
-; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO     ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0        ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0        ; Untyped             ;
-; CBXI_PARAMETER                                 ; mult_9js ; Untyped             ;
-; INPUT_A_FIXED_VALUE                            ; Bx       ; Untyped             ;
-; INPUT_B_FIXED_VALUE                            ; Bx       ; Untyped             ;
-; USE_AHDL_IMPLEMENTATION                        ; OFF      ; Untyped             ;
-+------------------------------------------------+----------+---------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------+
-; lpm_mult Parameter Settings by Entity Instance                  ;
-+---------------------------------------+-------------------------+
-; Name                                  ; Value                   ;
-+---------------------------------------+-------------------------+
-; Number of entity instances            ; 1                       ;
-; Entity Instance                       ; Ula:ula0|lpm_mult:Mult0 ;
-;     -- LPM_WIDTHA                     ; 4                       ;
-;     -- LPM_WIDTHB                     ; 4                       ;
-;     -- LPM_WIDTHP                     ; 8                       ;
-;     -- LPM_REPRESENTATION             ; UNSIGNED                ;
-;     -- INPUT_A_IS_CONSTANT            ; NO                      ;
-;     -- INPUT_B_IS_CONSTANT            ; NO                      ;
-;     -- USE_EAB                        ; OFF                     ;
-;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                    ;
-;     -- INPUT_A_FIXED_VALUE            ; Bx                      ;
-;     -- INPUT_B_FIXED_VALUE            ; Bx                      ;
-+---------------------------------------+-------------------------+
-
-
-+-----------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "Ula:ula0"                                                                                  ;
-+-------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port        ; Type   ; Severity ; Details                                                                             ;
-+-------------+--------+----------+-------------------------------------------------------------------------------------+
-; ina[19..4]  ; Input  ; Info     ; Stuck at GND                                                                        ;
-; inb[19..4]  ; Input  ; Info     ; Stuck at GND                                                                        ;
-; outr[19..8] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+-------------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+-----------------------------------------------------+
-; Post-Synthesis Netlist Statistics for Top Partition ;
-+-----------------------+-----------------------------+
-; Type                  ; Count                       ;
-+-----------------------+-----------------------------+
-; boundary_port         ; 65                          ;
-; cycloneiii_lcell_comb ; 106                         ;
-;     arith             ; 21                          ;
-;         1 data inputs ; 1                           ;
-;         2 data inputs ; 2                           ;
-;         3 data inputs ; 18                          ;
-;     normal            ; 85                          ;
-;         0 data inputs ; 3                           ;
-;         2 data inputs ; 7                           ;
-;         3 data inputs ; 8                           ;
-;         4 data inputs ; 67                          ;
-;                       ;                             ;
-; Max LUT depth         ; 11.10                       ;
-; Average LUT depth     ; 9.37                        ;
-+-----------------------+-----------------------------+
-
-
-+-------------------------------+
-; Elapsed Time Per Partition    ;
-+----------------+--------------+
-; Partition Name ; Elapsed Time ;
-+----------------+--------------+
-; Top            ; 00:00:00     ;
-+----------------+--------------+
-
-
 +-------------------------------+
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Mon Sep 14 19:00:39 2026
+    Info: Processing started: Mon Sep 14 19:21:38 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off FPGAEx1-rev2 -c test1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file toplevel.vhd
-    Info (12022): Found design unit 1: toplevel-arch File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 47
-    Info (12023): Found entity 1: toplevel File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 22
+    Info (12022): Found design unit 1: toplevel-arch File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-2.1/Eq03-FPGA1/toplevel.vhd Line: 54
+    Info (12023): Found entity 1: toplevel File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-2.1/Eq03-FPGA1/toplevel.vhd Line: 30
 Info (12021): Found 2 design units, including 1 entities, in source file displays.vhd
-    Info (12022): Found design unit 1: displays-arch File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/displays.vhd Line: 27
-    Info (12023): Found entity 1: displays File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/displays.vhd Line: 14
+    Info (12022): Found design unit 1: displays-arch File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-2.1/Eq03-FPGA1/displays.vhd Line: 39
+    Info (12023): Found entity 1: displays File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-2.1/Eq03-FPGA1/displays.vhd Line: 23
 Info (12021): Found 2 design units, including 1 entities, in source file eq03-ula.vhd
-    Info (12022): Found design unit 1: Ula-Arch File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/Eq03-ULA.vhd Line: 20
-    Info (12023): Found entity 1: Ula File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/Eq03-ULA.vhd Line: 9
+    Info (12022): Found design unit 1: Ula-Arch File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-2.1/Eq03-FPGA1/Eq03-ULA.vhd Line: 29
+    Info (12023): Found entity 1: Ula File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-2.1/Eq03-FPGA1/Eq03-ULA.vhd Line: 18
 Info (12127): Elaborating entity "toplevel" for the top level hierarchy
-Info (12128): Elaborating entity "displays" for hierarchy "displays:display" File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 81
-Info (12128): Elaborating entity "Ula" for hierarchy "Ula:ula0" File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 90
-Info (278001): Inferred 1 megafunctions from design logic
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Ula:ula0|Mult0" File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/Eq03-ULA.vhd Line: 25
-Info (12130): Elaborated megafunction instantiation "Ula:ula0|lpm_mult:Mult0" File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/Eq03-ULA.vhd Line: 25
-Info (12133): Instantiated megafunction "Ula:ula0|lpm_mult:Mult0" with the following parameter: File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/Eq03-ULA.vhd Line: 25
-    Info (12134): Parameter "LPM_WIDTHA" = "4"
-    Info (12134): Parameter "LPM_WIDTHB" = "4"
-    Info (12134): Parameter "LPM_WIDTHP" = "8"
-    Info (12134): Parameter "LPM_WIDTHR" = "8"
-    Info (12134): Parameter "LPM_WIDTHS" = "1"
-    Info (12134): Parameter "LPM_REPRESENTATION" = "UNSIGNED"
-    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
-    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
-    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
-Info (12021): Found 1 design units, including 1 entities, in source file db/mult_9js.tdf
-    Info (12023): Found entity 1: mult_9js File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/db/mult_9js.tdf Line: 29
-Warning (14284): Synthesized away the following node(s):
-    Warning (14285): Synthesized away the following LCELL buffer node(s):
-        Warning (14320): Synthesized away node "Ula:ula0|lpm_mult:Mult0|mult_9js:auto_generated|le5a[4]" File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/db/mult_9js.tdf Line: 43
-Info (13014): Ignored 48 buffer(s)
-    Info (13016): Ignored 4 CARRY_SUM buffer(s)
-    Info (13019): Ignored 44 SOFT buffer(s)
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "HEX2_HW[0]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 39
-    Warning (13410): Pin "HEX2_HW[1]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 39
-    Warning (13410): Pin "HEX2_HW[2]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 39
-    Warning (13410): Pin "HEX2_HW[3]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 39
-    Warning (13410): Pin "HEX2_HW[4]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 39
-    Warning (13410): Pin "HEX2_HW[5]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 39
-    Warning (13410): Pin "HEX2_HW[6]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 39
-    Warning (13410): Pin "HEX3_HW[0]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 40
-    Warning (13410): Pin "HEX3_HW[1]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 40
-    Warning (13410): Pin "HEX3_HW[2]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 40
-    Warning (13410): Pin "HEX3_HW[3]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 40
-    Warning (13410): Pin "HEX3_HW[4]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 40
-    Warning (13410): Pin "HEX3_HW[5]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 40
-    Warning (13410): Pin "HEX3_HW[6]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 40
-    Warning (13410): Pin "HEX4_HW[0]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 41
-    Warning (13410): Pin "HEX4_HW[1]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 41
-    Warning (13410): Pin "HEX4_HW[2]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 41
-    Warning (13410): Pin "HEX4_HW[3]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 41
-    Warning (13410): Pin "HEX4_HW[4]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 41
-    Warning (13410): Pin "HEX4_HW[5]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 41
-    Warning (13410): Pin "HEX4_HW[6]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 41
-    Warning (13410): Pin "HEX5_HW[0]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 42
-    Warning (13410): Pin "HEX5_HW[1]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 42
-    Warning (13410): Pin "HEX5_HW[2]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 42
-    Warning (13410): Pin "HEX5_HW[3]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 42
-    Warning (13410): Pin "HEX5_HW[4]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 42
-    Warning (13410): Pin "HEX5_HW[5]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 42
-    Warning (13410): Pin "HEX5_HW[6]" is stuck at VCC File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 42
-Info (286030): Timing-Driven Synthesis is running
-Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
-    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 3 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "CLK_H_HW" File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 27
-    Warning (15610): No output dependent on input pin "RST_HW" File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 30
-    Warning (15610): No output dependent on input pin "KEY1_HW" File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-3/Eq03-FPGA1/toplevel.vhd Line: 31
-Info (21057): Implemented 170 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 13 input pins
-    Info (21059): Implemented 52 output pins
-    Info (21061): Implemented 105 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 37 warnings
-    Info: Peak virtual memory: 4808 megabytes
-    Info: Processing ended: Mon Sep 14 19:01:01 2026
-    Info: Elapsed time: 00:00:22
-    Info: Total CPU time (on all processors): 00:00:23
+Info (12128): Elaborating entity "displays" for hierarchy "displays:display" File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-2.1/Eq03-FPGA1/toplevel.vhd Line: 92
+Info (12128): Elaborating entity "Ula" for hierarchy "Ula:ula0" File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-2.1/Eq03-FPGA1/toplevel.vhd Line: 104
+Error (10395): VHDL Conditional Signal Assignment error at Eq03-ULA.vhd(34): conditional waveforms must have same number of elements File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-2.1/Eq03-FPGA1/Eq03-ULA.vhd Line: 34
+Error (12152): Can't elaborate user hierarchy "Ula:ula0" File: C:/Users/Ramon M. P. Mariano/Documents/UTFPR/02-2026/arquitetura-comp-utfpr/atividade-2.1/Eq03-FPGA1/toplevel.vhd Line: 104
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 2 errors, 1 warning
+    Error: Peak virtual memory: 4780 megabytes
+    Error: Processing ended: Mon Sep 14 19:21:47 2026
+    Error: Elapsed time: 00:00:09
+    Error: Total CPU time (on all processors): 00:00:23
 
 
