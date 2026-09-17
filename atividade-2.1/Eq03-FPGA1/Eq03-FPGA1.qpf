@@ -1,0 +1,6 @@
+QUARTUS_VERSION = "20.1"
+DATE = "20:46:37  September 17, 2026"
+
+# Revisions
+
+PROJECT_REVISION = "Eq03-FPGA1"

@@ -1,0 +1,37 @@
+[*]
+[*] Eq03 - Banco de 16 Registradores de 20 bits
+[*] configuracao de visualizacao do GTKWave
+[*]
+[dumpfile] "Eq03-RegFile.ghw"
+[savefile] "Eq03-RegFile.gtkw"
+[timestart] 0
+[size] 1600 900
+[pos] -1 -1
+*-20.000000 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.regfile_tb.
+[sst_width] 260
+[signals_width] 200
+[sst_expanded] 1
+[sst_vpaned_height] 300
+@28
+top.regfile_tb.s_clk
+top.regfile_tb.s_rst
+top.regfile_tb.s_we3
+@200
+-escrita
+@22
+top.regfile_tb.s_a3[3:0]
+top.regfile_tb.s_wd3[19:0]
+@200
+-leitura 1
+@22
+top.regfile_tb.s_a1[3:0]
+top.regfile_tb.s_rd1[19:0]
+@200
+-leitura 2
+@22
+top.regfile_tb.s_a2[3:0]
+top.regfile_tb.s_rd2[19:0]
+[pattern_trace] 1
+[pattern_trace] 0

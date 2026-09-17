@@ -1,0 +1,10 @@
+v 4
+file . "Eq03-RegFile_tb.vhd" "1380814991b56b87d26c5f2846e3136dcaae3157" "20260917232029.905":
+  entity regfile_tb at 22( 865) + 0 on 15;
+  architecture test of regfile_tb at 29( 973) + 0 on 16;
+file . "Eq03-RegFile.vhd" "59bdc7a3745c9959a235b06c0b41a70fdb7d7b31" "20260917232029.904":
+  entity regfile at 21( 783) + 0 on 13;
+  architecture arch of regfile at 39( 1570) + 0 on 14;
+file . "Eq03-reg20its.vhd" "ca5d0f24e8e86d88f367ce18ab70e0ac7a4bcb11" "20260917232029.903":
+  entity reg20 at 16( 540) + 0 on 11;
+  architecture arch of reg20 at 29( 970) + 0 on 12;
