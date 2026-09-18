@@ -1,37 +1,62 @@
 [*]
 [*] Eq03 - Banco de 16 Registradores de 20 bits
-[*] configuracao de visualizacao do GTKWave
+[*] configuracao de visualizacao do GTKWave (valores em decimal)
 [*]
 [dumpfile] "Eq03-RegFile.ghw"
 [savefile] "Eq03-RegFile.gtkw"
 [timestart] 0
 [size] 1600 900
 [pos] -1 -1
-*-20.000000 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+*-16.000000 60000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] top.
 [treeopen] top.regfile_tb.
+[treeopen] top.regfile_tb.dut.
 [sst_width] 260
-[signals_width] 200
+[signals_width] 300
 [sst_expanded] 1
 [sst_vpaned_height] 300
+@200
+-controle
 @28
+[color] 3
 top.regfile_tb.s_clk
+@28
+[color] 3
 top.regfile_tb.s_rst
-top.regfile_tb.s_we3
 @200
 -escrita
-@22
-top.regfile_tb.s_a3[3:0]
-top.regfile_tb.s_wd3[19:0]
+@28
+[color] 2
+top.regfile_tb.s_we3
+@24
+[color] 2
+#{top.regfile_tb.s_a3[3:0]} top.regfile_tb.s_a3[3] top.regfile_tb.s_a3[2] top.regfile_tb.s_a3[1] top.regfile_tb.s_a3[0]
+@24
+[color] 2
+#{top.regfile_tb.s_wd3[19:0]} top.regfile_tb.s_wd3[19] top.regfile_tb.s_wd3[18] top.regfile_tb.s_wd3[17] top.regfile_tb.s_wd3[16] top.regfile_tb.s_wd3[15] top.regfile_tb.s_wd3[14] top.regfile_tb.s_wd3[13] top.regfile_tb.s_wd3[12] top.regfile_tb.s_wd3[11] top.regfile_tb.s_wd3[10] top.regfile_tb.s_wd3[9] top.regfile_tb.s_wd3[8] top.regfile_tb.s_wd3[7] top.regfile_tb.s_wd3[6] top.regfile_tb.s_wd3[5] top.regfile_tb.s_wd3[4] top.regfile_tb.s_wd3[3] top.regfile_tb.s_wd3[2] top.regfile_tb.s_wd3[1] top.regfile_tb.s_wd3[0]
+@200
+-RAs armazenados
+@24
+[color] 1
+#{top.regfile_tb.dut.gen_regs[9].regx.s_q[19:0]} top.regfile_tb.dut.gen_regs[9].regx.s_q[19] top.regfile_tb.dut.gen_regs[9].regx.s_q[18] top.regfile_tb.dut.gen_regs[9].regx.s_q[17] top.regfile_tb.dut.gen_regs[9].regx.s_q[16] top.regfile_tb.dut.gen_regs[9].regx.s_q[15] top.regfile_tb.dut.gen_regs[9].regx.s_q[14] top.regfile_tb.dut.gen_regs[9].regx.s_q[13] top.regfile_tb.dut.gen_regs[9].regx.s_q[12] top.regfile_tb.dut.gen_regs[9].regx.s_q[11] top.regfile_tb.dut.gen_regs[9].regx.s_q[10] top.regfile_tb.dut.gen_regs[9].regx.s_q[9] top.regfile_tb.dut.gen_regs[9].regx.s_q[8] top.regfile_tb.dut.gen_regs[9].regx.s_q[7] top.regfile_tb.dut.gen_regs[9].regx.s_q[6] top.regfile_tb.dut.gen_regs[9].regx.s_q[5] top.regfile_tb.dut.gen_regs[9].regx.s_q[4] top.regfile_tb.dut.gen_regs[9].regx.s_q[3] top.regfile_tb.dut.gen_regs[9].regx.s_q[2] top.regfile_tb.dut.gen_regs[9].regx.s_q[1] top.regfile_tb.dut.gen_regs[9].regx.s_q[0]
+@24
+[color] 7
+#{top.regfile_tb.dut.gen_regs[11].regx.s_q[19:0]} top.regfile_tb.dut.gen_regs[11].regx.s_q[19] top.regfile_tb.dut.gen_regs[11].regx.s_q[18] top.regfile_tb.dut.gen_regs[11].regx.s_q[17] top.regfile_tb.dut.gen_regs[11].regx.s_q[16] top.regfile_tb.dut.gen_regs[11].regx.s_q[15] top.regfile_tb.dut.gen_regs[11].regx.s_q[14] top.regfile_tb.dut.gen_regs[11].regx.s_q[13] top.regfile_tb.dut.gen_regs[11].regx.s_q[12] top.regfile_tb.dut.gen_regs[11].regx.s_q[11] top.regfile_tb.dut.gen_regs[11].regx.s_q[10] top.regfile_tb.dut.gen_regs[11].regx.s_q[9] top.regfile_tb.dut.gen_regs[11].regx.s_q[8] top.regfile_tb.dut.gen_regs[11].regx.s_q[7] top.regfile_tb.dut.gen_regs[11].regx.s_q[6] top.regfile_tb.dut.gen_regs[11].regx.s_q[5] top.regfile_tb.dut.gen_regs[11].regx.s_q[4] top.regfile_tb.dut.gen_regs[11].regx.s_q[3] top.regfile_tb.dut.gen_regs[11].regx.s_q[2] top.regfile_tb.dut.gen_regs[11].regx.s_q[1] top.regfile_tb.dut.gen_regs[11].regx.s_q[0]
 @200
 -leitura 1
-@22
-top.regfile_tb.s_a1[3:0]
-top.regfile_tb.s_rd1[19:0]
+@24
+[color] 5
+#{top.regfile_tb.s_a1[3:0]} top.regfile_tb.s_a1[3] top.regfile_tb.s_a1[2] top.regfile_tb.s_a1[1] top.regfile_tb.s_a1[0]
+@24
+[color] 5
+#{top.regfile_tb.s_rd1[19:0]} top.regfile_tb.s_rd1[19] top.regfile_tb.s_rd1[18] top.regfile_tb.s_rd1[17] top.regfile_tb.s_rd1[16] top.regfile_tb.s_rd1[15] top.regfile_tb.s_rd1[14] top.regfile_tb.s_rd1[13] top.regfile_tb.s_rd1[12] top.regfile_tb.s_rd1[11] top.regfile_tb.s_rd1[10] top.regfile_tb.s_rd1[9] top.regfile_tb.s_rd1[8] top.regfile_tb.s_rd1[7] top.regfile_tb.s_rd1[6] top.regfile_tb.s_rd1[5] top.regfile_tb.s_rd1[4] top.regfile_tb.s_rd1[3] top.regfile_tb.s_rd1[2] top.regfile_tb.s_rd1[1] top.regfile_tb.s_rd1[0]
 @200
 -leitura 2
-@22
-top.regfile_tb.s_a2[3:0]
-top.regfile_tb.s_rd2[19:0]
+@24
+[color] 4
+#{top.regfile_tb.s_a2[3:0]} top.regfile_tb.s_a2[3] top.regfile_tb.s_a2[2] top.regfile_tb.s_a2[1] top.regfile_tb.s_a2[0]
+@24
+[color] 4
+#{top.regfile_tb.s_rd2[19:0]} top.regfile_tb.s_rd2[19] top.regfile_tb.s_rd2[18] top.regfile_tb.s_rd2[17] top.regfile_tb.s_rd2[16] top.regfile_tb.s_rd2[15] top.regfile_tb.s_rd2[14] top.regfile_tb.s_rd2[13] top.regfile_tb.s_rd2[12] top.regfile_tb.s_rd2[11] top.regfile_tb.s_rd2[10] top.regfile_tb.s_rd2[9] top.regfile_tb.s_rd2[8] top.regfile_tb.s_rd2[7] top.regfile_tb.s_rd2[6] top.regfile_tb.s_rd2[5] top.regfile_tb.s_rd2[4] top.regfile_tb.s_rd2[3] top.regfile_tb.s_rd2[2] top.regfile_tb.s_rd2[1] top.regfile_tb.s_rd2[0]
 [pattern_trace] 1
 [pattern_trace] 0
