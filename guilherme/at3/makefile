@@ -1,8 +1,8 @@
 ID   = Eq03
-CFG  = config.gtkw
 TGT  = RegFile
 SRC  = $(ID)-Dec16.vhd $(ID)-Mux16.vhd $(ID)-Reg20.vhd $(ID)-$(TGT).vhd $(ID)-$(TGT)_tb.vhd
 WAVE = $(ID)-$(TGT).ghw
+CFG  = $(ID)-$(TGT).gtkw
 
 all: run $(WAVE)
 
