@@ -1,0 +1,49 @@
+[*]
+[*] GTKWave Analyzer v3.3.128 (w)1999-2026 BSI
+[*] Sun Sep 20 21:03:43 2026
+[*]
+[dumpfile] "/home/batpacg/Git/arquitetura-comp-utfpr/guilherme/at3/Eq03-RegFile.ghw"
+[dumpfile_mtime] "Sun Sep 20 20:57:13 2026"
+[dumpfile_size] 6201
+[savefile] "/home/batpacg/Git/arquitetura-comp-utfpr/guilherme/at3/Eq03-RegFile.gtkw"
+[timestart] 0
+[size] 1694 972
+[pos] -4 -2
+*-27.908669 1261000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.regfile_tb.
+[sst_width] 254
+[signals_width] 207
+[sst_expanded] 1
+[sst_vpaned_height] 281
+@28
+[color] 3
++{Reset} top.regfile_tb.uut.inrst
+[color] 3
++{Clock} top.regfile_tb.uut.inclk
+@200
+-Reg. Leitura 1
+@24
+[color] 4
++{Endereço Entrada 1} #{top.regfile_tb.s_ina1[3:0]} top.regfile_tb.s_ina1[3] top.regfile_tb.s_ina1[2] top.regfile_tb.s_ina1[1] top.regfile_tb.s_ina1[0]
+[color] 4
++{Saída Entrada 1} #{top.regfile_tb.s_outrd1[19:0]} top.regfile_tb.s_outrd1[19] top.regfile_tb.s_outrd1[18] top.regfile_tb.s_outrd1[17] top.regfile_tb.s_outrd1[16] top.regfile_tb.s_outrd1[15] top.regfile_tb.s_outrd1[14] top.regfile_tb.s_outrd1[13] top.regfile_tb.s_outrd1[12] top.regfile_tb.s_outrd1[11] top.regfile_tb.s_outrd1[10] top.regfile_tb.s_outrd1[9] top.regfile_tb.s_outrd1[8] top.regfile_tb.s_outrd1[7] top.regfile_tb.s_outrd1[6] top.regfile_tb.s_outrd1[5] top.regfile_tb.s_outrd1[4] top.regfile_tb.s_outrd1[3] top.regfile_tb.s_outrd1[2] top.regfile_tb.s_outrd1[1] top.regfile_tb.s_outrd1[0]
+@200
+-Reg. Leitura 2
+@24
+[color] 1
++{Endereço Entrada 2} #{top.regfile_tb.s_ina2[3:0]} top.regfile_tb.s_ina2[3] top.regfile_tb.s_ina2[2] top.regfile_tb.s_ina2[1] top.regfile_tb.s_ina2[0]
+[color] 1
++{Saída Entrada 2} #{top.regfile_tb.s_outrd2[19:0]} top.regfile_tb.s_outrd2[19] top.regfile_tb.s_outrd2[18] top.regfile_tb.s_outrd2[17] top.regfile_tb.s_outrd2[16] top.regfile_tb.s_outrd2[15] top.regfile_tb.s_outrd2[14] top.regfile_tb.s_outrd2[13] top.regfile_tb.s_outrd2[12] top.regfile_tb.s_outrd2[11] top.regfile_tb.s_outrd2[10] top.regfile_tb.s_outrd2[9] top.regfile_tb.s_outrd2[8] top.regfile_tb.s_outrd2[7] top.regfile_tb.s_outrd2[6] top.regfile_tb.s_outrd2[5] top.regfile_tb.s_outrd2[4] top.regfile_tb.s_outrd2[3] top.regfile_tb.s_outrd2[2] top.regfile_tb.s_outrd2[1] top.regfile_tb.s_outrd2[0]
+@200
+-Reg. Escrita
+@28
+[color] 2
++{Ativar Escrita} top.regfile_tb.uut.inwe3
+@24
+[color] 2
++{Endereço Escrita} #{top.regfile_tb.s_ina3[3:0]} top.regfile_tb.s_ina3[3] top.regfile_tb.s_ina3[2] top.regfile_tb.s_ina3[1] top.regfile_tb.s_ina3[0]
+[color] 2
++{Valor a Escrever} #{top.regfile_tb.s_inwd3[19:0]} top.regfile_tb.s_inwd3[19] top.regfile_tb.s_inwd3[18] top.regfile_tb.s_inwd3[17] top.regfile_tb.s_inwd3[16] top.regfile_tb.s_inwd3[15] top.regfile_tb.s_inwd3[14] top.regfile_tb.s_inwd3[13] top.regfile_tb.s_inwd3[12] top.regfile_tb.s_inwd3[11] top.regfile_tb.s_inwd3[10] top.regfile_tb.s_inwd3[9] top.regfile_tb.s_inwd3[8] top.regfile_tb.s_inwd3[7] top.regfile_tb.s_inwd3[6] top.regfile_tb.s_inwd3[5] top.regfile_tb.s_inwd3[4] top.regfile_tb.s_inwd3[3] top.regfile_tb.s_inwd3[2] top.regfile_tb.s_inwd3[1] top.regfile_tb.s_inwd3[0]
+[pattern_trace] 1
+[pattern_trace] 0

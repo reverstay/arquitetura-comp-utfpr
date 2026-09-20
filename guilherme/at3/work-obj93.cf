@@ -1,0 +1,17 @@
+v 4
+file . "Eq03-RegFile.vhd" "3ac78970e8ebb43f8093f938c7d3917fccc2f7db" "20260920205713.930":
+  entity regfile at 20( 635) + 0 on 78;
+  architecture arch of regfile at 39( 1130) + 0 on 79;
+file . "Eq03-Mux16.vhd" "ff3a5dc09f3851589a85c107a5df746f78bb3953" "20260920205713.925":
+  entity mux16 at 17( 418) + 0 on 74;
+  architecture arch of mux16 at 30( 689) + 0 on 75;
+file . "Eq03-Dec16.vhd" "eba1a888d4641b2be544dd9bd5ab193275701db3" "20260920205713.921":
+  package types at 8( 143) + 0 on 71;
+  entity dec16 at 15( 307) + 0 on 72;
+  architecture arch of dec16 at 27( 530) + 0 on 73;
+file . "Eq03-Reg20.vhd" "6bf41ffa719a5da78f8549f184c4820a7fa6d10f" "20260920205713.927":
+  entity reg20 at 8( 152) + 0 on 76;
+  architecture arch of reg20 at 22( 438) + 0 on 77;
+file . "Eq03-RegFile_tb.vhd" "16273bb4dd35a585716881a131fed2ee1e704867" "20260920205713.933":
+  entity regfile_tb at 8( 166) + 0 on 80;
+  architecture test of regfile_tb at 15( 270) + 0 on 81;

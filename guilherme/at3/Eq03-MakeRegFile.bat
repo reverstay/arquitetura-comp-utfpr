@@ -9,6 +9,6 @@ ghdl -a Eq03-RegFile_tb.vhd
 
 ghdl -r RegFile_tb --wave=Eq03-RegFile.ghw
 
-gtkwave Eq03-RegFile.ghw -a config.gtkw
+gtkwave Eq03-RegFile.ghw -a Eq03-RegFile.gtkw
 
 endlocal
