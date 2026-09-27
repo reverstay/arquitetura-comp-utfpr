@@ -1,0 +1,51 @@
+[*]
+[*] GTKWave Analyzer v3.3.128 (w)1999-2026 BSI
+[*] Sun Sep 27 01:34:01 2026
+[*]
+[dumpfile] "/home/batpacg/Git/arquitetura-comp-utfpr/guilherme/at4/Eq03-ULARegs.ghw"
+[dumpfile_mtime] "Sun Sep 27 01:33:55 2026"
+[dumpfile_size] 7912
+[savefile] "/home/batpacg/Git/arquitetura-comp-utfpr/guilherme/at4/Eq03-ULARegs.gtkw"
+[timestart] 0
+[size] 1694 972
+[pos] -1 -1
+*-24.259520 29200000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.ularegs_tb.
+[sst_width] 254
+[signals_width] 217
+[sst_expanded] 1
+[sst_vpaned_height] 282
+@200
+-Enable/Clock
+@28
+[color] 3
++{CLK} top.ularegs_tb.s_inclk
+[color] 3
++{E_CONST} top.ularegs_tb.s_ineconst
+[color] 3
++{WE3} top.ularegs_tb.s_inwe3
+[color] 3
++{RST} top.ularegs_tb.s_inrst
+@200
+-INPUT
+@24
++{A1} #{top.ularegs_tb.s_ina1[3:0]} top.ularegs_tb.s_ina1[3] top.ularegs_tb.s_ina1[2] top.ularegs_tb.s_ina1[1] top.ularegs_tb.s_ina1[0]
++{A2} #{top.ularegs_tb.s_ina2[3:0]} top.ularegs_tb.s_ina2[3] top.ularegs_tb.s_ina2[2] top.ularegs_tb.s_ina2[1] top.ularegs_tb.s_ina2[0]
++{A3} #{top.ularegs_tb.s_ina3[3:0]} top.ularegs_tb.s_ina3[3] top.ularegs_tb.s_ina3[2] top.ularegs_tb.s_ina3[1] top.ularegs_tb.s_ina3[0]
++{CONST} #{top.ularegs_tb.s_inconst[19:0]} top.ularegs_tb.s_inconst[19] top.ularegs_tb.s_inconst[18] top.ularegs_tb.s_inconst[17] top.ularegs_tb.s_inconst[16] top.ularegs_tb.s_inconst[15] top.ularegs_tb.s_inconst[14] top.ularegs_tb.s_inconst[13] top.ularegs_tb.s_inconst[12] top.ularegs_tb.s_inconst[11] top.ularegs_tb.s_inconst[10] top.ularegs_tb.s_inconst[9] top.ularegs_tb.s_inconst[8] top.ularegs_tb.s_inconst[7] top.ularegs_tb.s_inconst[6] top.ularegs_tb.s_inconst[5] top.ularegs_tb.s_inconst[4] top.ularegs_tb.s_inconst[3] top.ularegs_tb.s_inconst[2] top.ularegs_tb.s_inconst[1] top.ularegs_tb.s_inconst[0]
++{OP} #{top.ularegs_tb.s_inop[1:0]} top.ularegs_tb.s_inop[1] top.ularegs_tb.s_inop[0]
+@200
+-OUTPUT
+@24
+[color] 1
++{RD1} #{top.ularegs_tb.s_outrd1[19:0]} top.ularegs_tb.s_outrd1[19] top.ularegs_tb.s_outrd1[18] top.ularegs_tb.s_outrd1[17] top.ularegs_tb.s_outrd1[16] top.ularegs_tb.s_outrd1[15] top.ularegs_tb.s_outrd1[14] top.ularegs_tb.s_outrd1[13] top.ularegs_tb.s_outrd1[12] top.ularegs_tb.s_outrd1[11] top.ularegs_tb.s_outrd1[10] top.ularegs_tb.s_outrd1[9] top.ularegs_tb.s_outrd1[8] top.ularegs_tb.s_outrd1[7] top.ularegs_tb.s_outrd1[6] top.ularegs_tb.s_outrd1[5] top.ularegs_tb.s_outrd1[4] top.ularegs_tb.s_outrd1[3] top.ularegs_tb.s_outrd1[2] top.ularegs_tb.s_outrd1[1] top.ularegs_tb.s_outrd1[0]
+[color] 1
++{RD2} #{top.ularegs_tb.s_outrd2[19:0]} top.ularegs_tb.s_outrd2[19] top.ularegs_tb.s_outrd2[18] top.ularegs_tb.s_outrd2[17] top.ularegs_tb.s_outrd2[16] top.ularegs_tb.s_outrd2[15] top.ularegs_tb.s_outrd2[14] top.ularegs_tb.s_outrd2[13] top.ularegs_tb.s_outrd2[12] top.ularegs_tb.s_outrd2[11] top.ularegs_tb.s_outrd2[10] top.ularegs_tb.s_outrd2[9] top.ularegs_tb.s_outrd2[8] top.ularegs_tb.s_outrd2[7] top.ularegs_tb.s_outrd2[6] top.ularegs_tb.s_outrd2[5] top.ularegs_tb.s_outrd2[4] top.ularegs_tb.s_outrd2[3] top.ularegs_tb.s_outrd2[2] top.ularegs_tb.s_outrd2[1] top.ularegs_tb.s_outrd2[0]
+@28
+[color] 1
++{RD1 < RD2/CONST} top.ularegs_tb.s_outflags[1]
+[color] 1
++{RD1 OP RD2/CONST == 0} top.ularegs_tb.s_outflags[0]
+[pattern_trace] 1
+[pattern_trace] 0

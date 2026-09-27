@@ -1,6 +1,7 @@
 ID   = Eq03
 TGT  = RegFile
-SRC  = $(ID)-Dec16.vhd $(ID)-Mux16.vhd $(ID)-Reg20.vhd $(ID)-$(TGT).vhd $(ID)-$(TGT)_tb.vhd
+SRC  = $(ID)-Dec16.vhd \
+			 $(ID)-Mux16.vhd $(ID)-Reg20.vhd $(ID)-$(TGT).vhd $(ID)-$(TGT)_tb.vhd
 WAVE = $(ID)-$(TGT).ghw
 CFG  = $(ID)-$(TGT).gtkw
 
