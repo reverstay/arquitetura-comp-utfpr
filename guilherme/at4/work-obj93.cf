@@ -1,0 +1,26 @@
+v 4
+file . "Eq03-ULARegs_tb.vhd" "af6def2fa7129c9960a27105842b1f53fddcd58d" "20260927013355.866":
+  entity ularegs_tb at 8( 180) + 0 on 725;
+  architecture test of ularegs_tb at 15( 284) + 0 on 726;
+file . "Eq03-Reg20.vhd" "6bf41ffa719a5da78f8549f184c4820a7fa6d10f" "20260927013355.858":
+  entity reg20 at 8( 152) + 0 on 719;
+  architecture arch of reg20 at 22( 438) + 0 on 720;
+file . "Eq03-Dec16.vhd" "eba1a888d4641b2be544dd9bd5ab193275701db3" "20260927013355.850":
+  package types at 8( 143) + 0 on 712;
+  entity dec16 at 15( 307) + 0 on 713;
+  architecture arch of dec16 at 27( 530) + 0 on 714;
+file . "Eq03-ULA.vhd" "f6e5f8c63f5af8d0d3fcace5a69470367c26809b" "20260927013355.847":
+  entity ula at 5( 60) + 0 on 710;
+  architecture arch of ula at 20( 451) + 0 on 711;
+file . "Eq03-Mux16.vhd" "ff3a5dc09f3851589a85c107a5df746f78bb3953" "20260927013355.853":
+  entity mux16 at 17( 418) + 0 on 715;
+  architecture arch of mux16 at 30( 689) + 0 on 716;
+file . "Eq03-RegFile.vhd" "c9bd3a5b73ccb982b97e3d5a522b68a437108266" "20260927013355.860":
+  entity regfile at 20( 635) + 0 on 721;
+  architecture arch of regfile at 39( 1130) + 0 on 722;
+file . "Eq03-ULARegs.vhd" "cf6327dec849000de1567304c5ba8de0b2f379dc" "20260927013355.863":
+  entity ularegs at 8( 166) + 0 on 723;
+  architecture arch of ularegs at 32( 883) + 0 on 724;
+file . "Eq03-Mux2.vhd" "bfcd7f6242d6f446662d8bdb520ed4ba892323ec" "20260927013355.855":
+  entity mux2 at 8( 148) + 0 on 717;
+  architecture arch of mux2 at 20( 396) + 0 on 718;
